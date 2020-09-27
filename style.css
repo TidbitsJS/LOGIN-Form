@@ -62,7 +62,6 @@ form {
   display: grid;
   grid-template-columns: 7% 93%;
   margin: 25px 0;
-  padding: 5px 0;
   border-bottom: 2px solid #d9d9d9;
 }
 
@@ -88,8 +87,8 @@ form {
 
 .input-div > div > h5 {
   position: absolute;
-  left: 10px;
-  top: 50%;
+  left: 15%;
+  top: 35%;
   transform: translate(-50%);
   color: #999;
   font-size: 18px;
@@ -121,8 +120,9 @@ form {
 }
 
 .input-div.focus > div > h5 {
-  top: -5px;
+  top: -10px;
   font-size: 15px;
+  left: 10px;
 }
 
 .input-div.focus > .icon > i {
@@ -154,7 +154,7 @@ a {
   color: #999;
   font-size: 0.9rem;
   transition: 0.3s;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 a:hover {
