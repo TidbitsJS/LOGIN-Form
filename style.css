@@ -216,7 +216,6 @@ a:hover {
   .container {
     grid-template-columns: 1fr;
     padding: 0;
-    zoom: 1;
   }
 
   .login-content {
@@ -233,5 +232,11 @@ a:hover {
 
   .icon {
     color: black;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    zoom: 0.7;
   }
 }
